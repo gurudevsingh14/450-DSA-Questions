@@ -5,7 +5,7 @@ class Solution
 public:
     int findLongestConseqSubseq(int arr[], int n)
     {
-        map<int, int> map;
+        unordered_map<int, int> map;
         int ans = 0;
         for (int i = 0; i < n; i++)
         {
