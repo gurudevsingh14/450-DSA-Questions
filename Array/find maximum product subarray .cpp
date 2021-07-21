@@ -6,8 +6,8 @@ public:
     // Function to find maximum product subarray
     long long maxProduct(int *a, int n)
     {
-        long long max_eh = a[0], //maximum product ending at current index
-            min_eh = a[0],       //minimum product ending at current index
+        long long max_eh = a[0], //maximum product ending till current index
+            min_eh = a[0],       //minimum product ending till current index
             max_so_far = a[0];   //maximum product obtained so far(result variable)
 
         for (int i = 1; i < n; i++)
