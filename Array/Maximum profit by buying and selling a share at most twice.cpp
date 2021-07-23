@@ -3,6 +3,7 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        
         int n = prices.size();
         vector<int>dp(n, 0);
 
