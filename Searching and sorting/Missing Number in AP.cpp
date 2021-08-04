@@ -19,7 +19,7 @@ int inSequence(int A, int B, int C) {
     }
 }
 
-//-----------------An another problem---------------------------------------------
+//-----------------A similar problem---------------------------------------------
 //Find the missing number in Arithmetic Progression
 //Input: arr[]  = {2, 4, 8, 10, 12, 14}
 //Output: 6
