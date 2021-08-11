@@ -103,16 +103,17 @@ int main()
         q.pop();
         count++;
     }
+    cout << endl;
 
     node* mirror;
 
     mirrorimage(root, &mirror);
 
-    cout << "Level order traversal of original binary tree:\n";
+    cout << "Inorder traversal of original binary tree:\n";
     inorder(root);
     cout << endl;
 
-    cout << "Level order traversal of mirror image:\n";
+    cout << "Inorder traversal of mirror image:\n";
     inorder(mirror);
 
     return 0;
